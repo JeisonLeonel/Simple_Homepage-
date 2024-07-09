@@ -1,0 +1,11 @@
+/*Estilo para el body*/
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F9FE;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
