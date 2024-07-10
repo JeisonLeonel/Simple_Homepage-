@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*Estilo para el body*/
 body{
     display: flex;
@@ -5,7 +6,67 @@ body{
     background-color: #F2F9FE;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    font-weight: 500;
     width: 100%;
     height: 100%;
     margin: 0px;
+}
+/*Estilo para el encabezado*/
+.top_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.top_content .icon{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.top_content .opcion{
+    display: flex;
+    padding-top: 20px;
+}
+.top_content .opcion p{
+    color: #223344;
+    margin: 0px 45px 0px 0px;
+    width: 90px;
+}
+.top_content .opcion .bold{
+    color: #111729;
+    font-weight: 600 ;
+}
+.top_content .dark_mode{
+    margin-top: 15px;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 65px;
+    height: 35px;
+    border: solid 1px #223344;
+    background-color: #223344;
+    border-radius: 40px;
+}
+.top_content .dark_mode img{
+    height: 20px;
+    width: 20px;
+}
+.top_content .dark_mode .sun{
+    background-color: #F2F9FE;
+    border-radius: 100%;
+}
+/*Eestilo para el contenido principal*/
+.content_main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/*Estilo para el contendio de la derecha*/
+.content_main .content_left{
+    display: flex;
+    flex-direction: column;
+}
+/*Estilo para el contendio de la izquierda*/
+.content_main .content_right img{
+    height: 35rem;
+    padding-left: 2.5rem;
 }
