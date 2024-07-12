@@ -109,7 +109,19 @@ body{
     color: #2A4DD0;
     font-weight: 600;
 }
-
+.content_main .content_left .check {
+    display: flex;
+    color: #909193;
+    font-size:14px;
+}
+.content_main .content_left .check .check_left {
+    display: flex;
+    justify-content: flex-start;
+}
+.content_main .content_left .check .check_right {
+    display: flex;
+    padding-left: 3rem;
+}
 /*Estilo para el contendio de la izquierda*/
 .content_main .content_right img{
     height: 35rem;
