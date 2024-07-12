@@ -25,10 +25,11 @@ body{
 .top_content .opcion{
     display: flex;
     padding-top: 20px;
+    font-size: 14px;
 }
 .top_content .opcion p{
     color: #223344;
-    margin: 0px 45px 0px 0px;
+    margin: 0px 25px 0px 0px;
     width: 90px;
 }
 .top_content .opcion .bold{
@@ -41,8 +42,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 65px;
-    height: 35px;
+    width: 55px;
+    height: 25px;
     border: solid 1px #223344;
     background-color: #223344;
     border-radius: 40px;
@@ -51,9 +52,13 @@ body{
     height: 20px;
     width: 20px;
 }
+.top_content .dark_mode .moom{
+    margin-left: 10px;
+}
 .top_content .dark_mode .sun{
     background-color: #F2F9FE;
     border-radius: 100%;
+    margin-left: 10px;
 }
 /*Eestilo para el contenido principal*/
 .content_main{
@@ -64,9 +69,51 @@ body{
 .content_main .content_left{
     display: flex;
     flex-direction: column;
+    padding-top: 4rem;
+    padding-left: 70px;
 }
+.content_main .content_left .content_left_text p{
+    font-size: 18px;
+}
+.content_main .content_left .content_left_text .text_header{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #111729;
+    margin: 0px;
+}
+.content_main .content_left .content_left_text .text_main{
+    font-size: 60px;
+    color: #223344;
+    margin: 10px 0px 0px 0px;
+    height: 18rem;
+    width:25rem ;
+}
+.content_main .content_left .content_left_text .text_body{
+    font-size: 18px;
+    color: #909193;
+}
+.content_main .content_left .left_button{
+    color: #F2F9FE;
+    background-color:#2A4DD0 ;
+    font-size: 16px;
+    border: solid 0px;
+    width: 11rem;
+    height: 3.5rem;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.content_main .content_left .content_left_button a{
+    padding-left: 2.5rem;
+    font-size: 16px;
+    color: #2A4DD0;
+    font-weight: 600;
+}
+
 /*Estilo para el contendio de la izquierda*/
 .content_main .content_right img{
     height: 35rem;
-    padding-left: 2.5rem;
+    padding-left: 6rem;
+    padding-top: 5rem;
 }
+
