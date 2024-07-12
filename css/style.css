@@ -102,12 +102,12 @@ body.dark-mode .content_left .content_left_text .text_main {
 }
 /* Estilo para el modo claro (predeterminado) */
 body.light-mode .top_content .icon img {
-    content: url('/img/alarado-icon-homepage.svg');
+    content: url('../img/alarado-icon-homepage.svg');
 }
 
 /* Estilo para el modo oscuro */
 body.dark-mode .top_content .icon img {
-    content: url('/img/alarado-icon-homepage-dark.svg');
+    content: url('../img/alarado-icon-homepage-dark.svg');
 }
 /*Eestilo para el contenido principal*/
 .content_main{
